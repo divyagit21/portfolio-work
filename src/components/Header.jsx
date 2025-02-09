@@ -1,13 +1,6 @@
-import React,{useEffect} from 'react'
+import React from 'react'
 
 const Header = () => {
-  // useEffect(()=>{
-  //   const links=document.querySelectorAll('a#home');
-  //   document.addEventListener('click',handle)
-  //   function handle(){
-  //     console.log("home clicked");
-  //   }
-  // })
   return (
     <>
       <div className='header'>
@@ -32,7 +25,6 @@ const StyleSheet = () => {
             justify-content:center;
             font-size:var(--30px);
             gap:var(--40px);
-            // background-color:pink;
             padding:var(--16px);
             }
             @media (max-width:500px){

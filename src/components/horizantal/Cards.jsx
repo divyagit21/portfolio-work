@@ -18,11 +18,9 @@ const StyleSheet = () => {
     return (
         <style>{`
             .cards{
-            //   background-color:blue;
               width:15%;
               left:min(4rem,2%);
               right:min(4rem,2%);
-            //   position:relative;
               color:var(--secondary-color);
               border-radius:20px;
               box-shadow:1px 1px 10px 2px #fff4d6;

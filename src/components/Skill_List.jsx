@@ -70,10 +70,7 @@ const Skill_List = ({isSticky}) => {
                     .skills-heading{
         color: var(--secondary-color);
         display: flex;
-        // justify-content: center;
-        // align-items: center;
         padding-bottom: 20px;
-        // background-color: pink;
         font-size: clamp(1rem, calc(4vw + 1rem), 3rem);
         }
         @media (max-width: 768px) {

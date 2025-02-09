@@ -13,10 +13,8 @@ const StyleSheet = () => {
     return (
         <style>{` 
         .projects{
-        // height:350vh;
         width:100%;
         position:relative;
-        // background-color:pink;
         }  
         `}</style>
     )

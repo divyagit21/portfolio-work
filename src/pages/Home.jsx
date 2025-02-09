@@ -22,24 +22,10 @@ const StyleSheet=()=>{
     return (
         <style>{`
           .home{
-        //   background-color: red;
-          // display:flex;
-          // flex-direction:row;
           position:relative;
           height:100vh;
           width:100%;
           }   
-        //   .header-info{
-        //     flex-direction:column;
-        //     // background-color:blue;
-        //   } 
-        //   .header-info,.corner-lines{
-          // flex:1;
-        //   } 
-        //   .corner-lines{
-        //   top:0;
-        //   width:100vh;
-        //   }
         `}</style>
     )
 }

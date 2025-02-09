@@ -28,7 +28,6 @@ const StyleSheet = () => {
     return (
         <style>{`
             .info {
-                // background-color:red;
                 display: flex;
                 flex-direction: column;
                 margin-top:clamp(0rem, calc(4vw + 1rem), 4rem);
@@ -40,16 +39,10 @@ const StyleSheet = () => {
             }
             .info1 {
                 font-size: clamp(0.8rem, calc(4vw + 1rem), 4rem);
-                // text-align: center;
-                // font-size: clamp(0.4rem, calc(2vw + 2vh + 0.5rem), 4rem);
                 color: var(--secondary-color);
-                // background-color:yellow;
             }
             .info2 {
                 font-size: clamp(0.2rem,calc(1vw + 0.5rem),1.2rem); 
-                // font-size: clamp(0.2rem,calc(1vw + 1vh + 0.2rem),1.2rem); 
-                // font-size: clamp(0.2rem,calc(3vh + 0.2rem),1.2rem); 
-                // max-width: 80%;
                 width:80%;
                 margin-left: auto;
                 margin-right: auto;

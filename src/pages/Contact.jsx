@@ -88,7 +88,6 @@ const Contact = () => {
                     >
                     </div>
                 </div>
-                {/* <div style={{ marginBottom: '5vh' }}></div> */}
             </div>
             <StyleSSheet />
         </>
@@ -105,7 +104,6 @@ const StyleSSheet = () => {
           width:100%;
           color:var(--secondary-color);
           position:relative;
-        //   background-color:orange;
         }
         .contact_title{
            color: var(--secondary-color);
@@ -113,7 +111,6 @@ const StyleSSheet = () => {
         display:flex;
         align-items:center;
         justify-content:center;
-        // background-color: pink;
         font-size: clamp(1rem, calc(4vw + 1rem), 3rem);
         }
         .icon-items {

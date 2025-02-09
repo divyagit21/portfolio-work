@@ -47,7 +47,6 @@ const StyleSheet = () => {
          position:relative;
          overflow:hidden;
         border-radius:25px;
-        //  background-color:blue;
       }
       img{
          aspect-ratio:1;
@@ -70,7 +69,6 @@ const StyleSheet = () => {
             }
                .card-border{
                  width: clamp(15rem,calc(40vw + 5rem),25rem);
-                //  height:22rem;
                  height:clamp(15rem,calc(40vw + 5rem),22rem);
                }
             }

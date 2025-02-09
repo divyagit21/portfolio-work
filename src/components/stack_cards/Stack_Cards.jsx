@@ -32,7 +32,6 @@ const StyleSheet = () => {
   return (
     <style>{`
       .stack-cards{
-        // background-color:red;
         display:flex;
         position:relative;
         top:25%;

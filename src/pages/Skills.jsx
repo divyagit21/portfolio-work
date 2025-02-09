@@ -6,7 +6,6 @@ const Skills = () => {
   return (
     <>
         <div className='skills' id='skills'>
-      {/* <div className='skills-heading'>Skills</div> */}
           <Skill_List />
           <Stack_Cards />
         </div>
@@ -21,15 +20,10 @@ const StyleSheet = () => {
        .skills{
         display: flex;
         flex-direction: row;
-        // background-color:green;
         color: var(--secondary-color);
-        // min-height: 100vh;
         gap:20%;
        }  
         .skills-align{
-          // display: flex;
-          // justify-content: center;
-          // align-items: center;
           flex-direction: row;
           gap: clamp(1rem, 5vw, 100px); 
           flex-wrap: wrap;

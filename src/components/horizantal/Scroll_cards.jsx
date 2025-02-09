@@ -31,18 +31,13 @@ const StyleSheet = () => {
         display: flex;
         justify-content: center;
         align-items: center;
-        // background-color: pink;
         font-size: clamp(1rem, calc(4vw + 1rem), 3rem);
         }  
             .project-container{
-                // background-color:red;
                 height:350vh;
-                // position:sticky;
-                // position:relative;
                 }
                 .pro_card{
                     height:30%;
-                    // background-color:yellow;
                     position:sticky;
                     top:0;
                     overflow:hidden;
@@ -50,11 +45,8 @@ const StyleSheet = () => {
                 .scroll_cards{
                     width:250%;
                     display: flex;
-                    // background-color:blue;
-                    // position:sticky;
                     top:0;
                     padding:2%;
-                    // margin:7%;
                      margin-top:clamp(0rem, calc(4vw + 1rem), 4rem);
                     gap:min(20rem,8%);
                     position:relative;
